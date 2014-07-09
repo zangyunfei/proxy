@@ -17,7 +17,8 @@ public class BeforeAspect {
 	public void before(JoinPoint jp) {
 
 		Signature signature = jp.getSignature();
-		System.out.println("Name:" + signature.getName());
+		System.out.println("Name:" + signature.getDeclaringTypeName());
+		System.out.println("method:" + signature.getName());
 		for (int i = 0; i < jp.getArgs().length; i++) {
 			Object arg = jp.getArgs()[i];
 			if (null != arg) {
