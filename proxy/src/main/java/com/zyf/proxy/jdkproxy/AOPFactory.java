@@ -1,4 +1,4 @@
-package com.zyf.proxy.invoke;
+package com.zyf.proxy.jdkproxy;
 
 public class AOPFactory {
 	private static Object getClassInstance(String clzName) {

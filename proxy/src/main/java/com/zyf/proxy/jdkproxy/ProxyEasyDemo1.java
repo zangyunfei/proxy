@@ -1,4 +1,4 @@
-package com.zyf.proxy.invoke;
+package com.zyf.proxy.jdkproxy;
 
 public class ProxyEasyDemo1 implements Play {
 	private Play p;

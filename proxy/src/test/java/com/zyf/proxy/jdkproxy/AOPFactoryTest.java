@@ -1,7 +1,10 @@
-package com.zyf.proxy.invoke;
+package com.zyf.proxy.jdkproxy;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.zyf.proxy.jdkproxy.AOPFactory;
+import com.zyf.proxy.jdkproxy.Play;
 
 public class AOPFactoryTest {
 	@Test
